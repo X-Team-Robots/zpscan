@@ -12,7 +12,7 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-latest
+#           - macos-latest
     steps:
       - name: Set up Go 1.18
         uses: actions/setup-go@v1
