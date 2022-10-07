@@ -3,14 +3,14 @@ package config
 import (
 	"log"
 
-	"github.com/niudaii/zpscan/internal/utils"
+// 	"github.com/niudaii/zpscan/internal/utils"
 	"github.com/niudaii/zpscan/pkg/ipscan/portfinger"
 	"github.com/niudaii/zpscan/pkg/ipscan/qqwry"
 	"github.com/niudaii/zpscan/pkg/webscan"
 
 	"github.com/projectdiscovery/subfinder/v2/pkg/runner"
 
-	"gopkg.in/yaml.v2"
+// 	"gopkg.in/yaml.v2"
 )
 
 type Config struct {
