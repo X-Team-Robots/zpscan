@@ -1,7 +1,7 @@
 package config
 
 import (
-	"log"
+// 	"log"
 
 // 	"github.com/niudaii/zpscan/internal/utils"
 	"github.com/niudaii/zpscan/pkg/ipscan/portfinger"
