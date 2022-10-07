@@ -72,15 +72,15 @@ type Dirscan struct {
 
 var Worker Config
 
-const configFile = "config.yaml"
+// const configFile = "config.yaml"
 
-func init() {
-	bytes, err := utils.ReadFile(configFile)
-	if err != nil {
-		log.Fatal(err)
-	}
-	err = yaml.Unmarshal(bytes, &Worker)
-	if err != nil {
-		log.Fatal(err)
-	}
-}
+// func init() {
+// 	bytes, err := utils.ReadFile(configFile)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	err = yaml.Unmarshal(bytes, &Worker)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// }
